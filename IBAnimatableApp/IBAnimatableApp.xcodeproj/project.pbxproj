@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A84E8B1E22061A7E007B053C /* ShadowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E8B1D22061A7E007B053C /* ShadowViewController.swift */; };
 		AEE931D020A090C50021E83A /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE931CF20A090C50021E83A /* IBAnimatable.framework */; };
 		C41A0E84209A42400069555A /* ActivityIndicatorCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A0E83209A42400069555A /* ActivityIndicatorCollectionViewController.swift */; };
 		C473AEA1209D9B9D008DA12C /* PredefinedGradientCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C473AEA0209D9B9D008DA12C /* PredefinedGradientCollectionViewController.swift */; };
@@ -67,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A84E8B1D22061A7E007B053C /* ShadowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowViewController.swift; sourceTree = "<group>"; };
 		AEE931CF20A090C50021E83A /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41A0E83209A42400069555A /* ActivityIndicatorCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorCollectionViewController.swift; sourceTree = "<group>"; };
 		C473AEA0209D9B9D008DA12C /* PredefinedGradientCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredefinedGradientCollectionViewController.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				E2A547691ECF1C4400842C1F /* BlurEffectViewController.swift */,
 				E2A5476A1ECF1C4400842C1F /* BorderViewController.swift */,
 				E2A5476B1ECF1C4400842C1F /* CornerViewController.swift */,
+				A84E8B1D22061A7E007B053C /* ShadowViewController.swift */,
 			);
 			path = UserInterfaces;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				E2307A8A1ECD8736000E38B2 /* AppDelegate.swift in Sources */,
 				E2A547841ECF1C9F00842C1F /* TimingFunctionView.swift in Sources */,
 				E2A5472F1ECF1C0E00842C1F /* AnimationsTimingFunctionViewController.swift in Sources */,
+				A84E8B1E22061A7E007B053C /* ShadowViewController.swift in Sources */,
 				E2A5474C1ECF1C0E00842C1F /* Functions.swift in Sources */,
 				E2A547301ECF1C0E00842C1F /* AnimationsViewController.swift in Sources */,
 				E2A547341ECF1C0E00842C1F /* InteractionTableViewController.swift in Sources */,
