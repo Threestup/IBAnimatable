@@ -37,5 +37,13 @@ class ShadowViewController: UIViewController {
       self.testView.isHidden = true
       self.viewToShadow.isHidden = true
     }
+    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 4) {
+      self.testView.isHidden = false
+      self.viewToShadow.isHidden = false
+    }
+    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 6) {
+      self.testView.isHidden = true
+      self.viewToShadow.isHidden = true
+    }
   }
 }

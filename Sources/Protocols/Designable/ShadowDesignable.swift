@@ -106,12 +106,12 @@ extension ShadowDesignable {
     view.layer.shadowOpacity = 0
 
     // Remove any previous shadow layer
-    view.layer.superlayer?.sublayers?.filter { $0.name == "shadowLayer-\(Unmanaged.passUnretained(self))" }
+    view.layer.superlayer?.sublayers?.filter { $0.name == "shadowLayer" }
       .forEach { $0.removeFromSuperlayer() }
 
     // Create new layer with object's memory reference to make this string unique. Otherwise common name will remove all the shadow layers as it's adding in layer's superview.
     let shadowLayer = CAShapeLayer()
-    shadowLayer.name = "shadowLayer-\(Unmanaged.passUnretained(self))"
+    shadowLayer.name = "shadowLayer"
     shadowLayer.frame = view.frame
 
     // Configure shadow properties

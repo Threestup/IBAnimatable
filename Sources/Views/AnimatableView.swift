@@ -232,6 +232,13 @@ open class AnimatableView: UIView, CornerDesignable, FillDesignable, BorderDesig
     autoRunAnimation()
   }
 
+  open override var isHidden: Bool {
+    didSet {
+      self.layer.superlayer?.sublayers?.filter { $0.name == "shadowLayer" }
+        .forEach { $0.isHidden = isHidden }
+    }
+  }
+
   // MARK: - Private
   fileprivate func configureInspectableProperties() {
     configureAnimatableProperties()
